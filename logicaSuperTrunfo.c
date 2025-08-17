@@ -11,15 +11,15 @@ int main() {
     printf("\nAgora ponha essa  mesma letra, seguida de um dos numeros de 01 a 04 : \n");
     scanf("%s" , cod1);
 
-     printf("\nQual eh o nome da cidade que voce escolhe? : \n");
+     printf("\nQual eh o nome da cidade que voce escolhe? :\n");
     scanf("%s" , cid1);
 
     float popu1;
-    printf("Agora me diga, qual eh o numero de sua populacao? \n");
+    printf("Agora me diga, qual eh o numero de sua populacao?\n");
     scanf("%f" , &popu1);
 
     float area1;
-    printf("O quao extenso ela eh? Ponha a baixo, o numero de sua Area. \n");
+    printf("O quao extenso ela eh? Ponha a baixo, o numero de sua Area.\n");
     scanf("%f" , &area1);
 
     float pib1;
@@ -32,13 +32,13 @@ int main() {
 
     printf("-\n -\n -Boa jogador! Agora vamos para a segunda carta. \n -\n ");
     
-    printf("Escolha um estado e use uma letra de A a H para representalo : \n");
+    printf("Escolha um estado e use uma letra de A a H para representalo :\n");
     scanf("%s" , est2);
 
-    printf("\nAgora ponha essa  mesma letra, seguida de um dos numeros de 01 a 04 : \n");
+    printf("\nAgora ponha essa  mesma letra, seguida de um dos numeros de 01 a 04 :\n");
     scanf("%s" , cod2);
 
-     printf("\nQual eh o nome da cidade que voce escolhe? : \n");
+     printf("\nQual eh o nome da cidade que voce escolhe? :\n");
     scanf("%s" , cid2);
 
     float popu2;
@@ -113,12 +113,8 @@ int main() {
 } else if(pontos2 > pontos1){
     printf("\nA grande vencedora foi a carta %s!\n", cod2);
 } else {
-    printf("\nO jogo terminou em empate!\n");
+    printf("\nO jogo terminou em empate\n");
 }
-
-
- 
-
 
 return 0;
     
